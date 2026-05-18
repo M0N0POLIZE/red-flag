@@ -31,7 +31,7 @@ db.exec(`
 
 // Middleware
 app.use(cors());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname)));
 
 // Stripe webhooks need raw body - must be before express.json()
 app.post('/webhook', express.raw({ type: 'application/json' }), async (req, res) => {
