@@ -1,0 +1,4 @@
+node_modules/
+.env
+redflag.db
+*.db
