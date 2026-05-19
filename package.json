@@ -13,7 +13,10 @@
     "dotenv": "^16.3.1",
     "@anthropic-ai/sdk": "^0.24.0",
     "stripe": "^14.21.0",
-    "lowdb": "^1.0.0",
-    "uuid": "^9.0.0"
+    "pg": "^8.11.3",
+    "uuid": "^9.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cookie-parser": "^1.4.6"
   }
 }
